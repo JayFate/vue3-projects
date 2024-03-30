@@ -1,0 +1,26 @@
+{
+  "homepage": "https://ekinkaradag.github.io/snake-vue3/",
+  "name": "vue-snake",
+  "version": "0.1.5",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "typecheck": "vue-tsc --noEmit --skipLibCheck"
+  },
+  "dependencies": {
+    "marked": "^12.0.1",
+    "typescript": "^5.4.3",
+    "vue": "^3.4.21",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "@vue/compiler-sfc": "^3.4.21",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.2.7",
+    "vue-tsc": "^2.0.7"
+  }
+}
